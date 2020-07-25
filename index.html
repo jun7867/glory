@@ -10,7 +10,7 @@
     />
     <meta name="담임목사" content="남성종" />
     <meta property="title" content="주영광교회" />
-    <link rel="icon" type="image/png" href="./imgs/favicon.png" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
     <script
       src="https://kit.fontawesome.com/5693e7640a.js"
       crossorigin="anonymous"
@@ -22,5 +22,127 @@
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <!-- First Logo -->
+    <nav id="header">
+      <div class="header__logo">
+        <img src="./images/favicon.png" alt="Main Logo" class="main-logo" />
+        <!-- 현재 페이지의 제일 윗부분으로 이동하는 역할 href="#" -->
+        <a href="#">주영광교회</a>
+      </div>
+    </nav>
+    <nav id="navbar">
+      <ul class="navbar__menu">
+        <li class="navbar__menu__m1">
+          <!--교회소개 누르면 링크  -->
+          <a href="">교회소개</a>
+          <ul class="navbar__menu__item">
+            <li><a href="">교회소개</a></li>
+            <li><a href="">담임목사 인사말</a></li>
+            <li><a href="">비전</a></li>
+            <li><a href="">연혁</a></li>
+            <li><a href="">예배안내</a></li>
+            <li><a href="">찾아오시는 길</a></li>
+          </ul>
+        </li>
+        <li class="navbar__menu__m2">
+          <a href="">설교/찬양</a>
+          <ul class="navbar__menu__item">
+            <li><a href="">주일설교</a></li>
+          </ul>
+        </li>
+        <li class="navbar__menu__m3">
+          <a href="">교회소식</a>
+          <ul class="navbar__menu__item">
+            <li><a href="">교회소식</a></li>
+            <li><a href="">공지사항</a></li>
+            <li><a href="">앨범</a></li>
+            <li><a href="">기도제목</a></li>
+          </ul>
+        </li>
+        <li class="navbar__menu__m4">
+          <a href="">선교사역</a>
+          <ul class="navbar__menu__item">
+            <li><a href="">국내선교사역</a></li>
+            <li><a href="">해외선교사역</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Photo -->
+    <section id="home">
+      <div class="home__container">
+        <ul class="imgview1">
+          <li>
+            <a href="#"
+              ><img src="./images/main1.png" alt="main1" title="main1"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/main2.png" alt="main2" title="main2"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/main3.png" alt="main3" title="main3"
+            /></a>
+          </li>
+        </ul>
+        <ul class="main__list">
+          <li class="main__list__on"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <button class="main__left-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="main__right-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!--성막 button -->
+    <section id=sub">
+        <div class="sub__container">
+            <ul class="mlist">
+                <li> <a href="#"><img src="" alt="" title="" /></a> </li>
+                <li> <a href="#"><img src="" alt="" title="" /></a> </li>
+                <li> <a href="#"><img src="" alt="" title="" /></a> </li>
+                <li> <a href="#"><img src="" alt="" title="" /></a> </li>
+                <li> <a href="#"><img src="" alt="" title="" /></a> </li>
+                <li> <a href="#"><img src="" alt="" title="" /></a> </li>
+                <li> <a href="#"><img src="" alt="" title="" /></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="banner">
+        <div class="banner container">
+            <ul class=" content banner banner3 cf">
+                <li class="b_shadow"> <a href="#"><img src="/skin/flat01/images/info/4b_01.jpg" alt="" title="" /></a> </li>
+                <li class="b_shadow"> <a href="#"><img src="/skin/flat01/images/info/4b_02.jpg" alt="" title="" /></a> </li>
+                <li class="b_shadow"> <a href="#"><img src="/skin/flat01/images/info/4b_03.jpg" alt="" title="" /></a> </li>
+            </ul>
+        </div>
+    </section>
+  
+</body>
+<!-- 푸터시작 -->
+<footer id="footer" class="footer cf">
+    <div id="footer-main" >
+        <div class="footer-maininfo" >
+        <ul>
+            <p><span>인천 서구 신현동 129-6 주영광교회 </span>        
+                <a href="https://map.naver.com/v5/entry/place/16970145?c=14100528.2042097,4511641.5799721,15,0,0,0,dh" target="_new"><img style="width:13px;height:16px"src="/images/common/ico_ps.png" alt="지도보기" title="지도보기" /></a>
+            </p>
+            <p>Copyright All Rights reserved <strong>MADE BY Jun</strong></p>
+        </ul>
+
+        </div>
+    </div> 
+</footer>
 </html>
