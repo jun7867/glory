@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+img {
+  width: 300px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+}
+.header__logo {
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+}
+.logo {
+  margin: 0 8px;
+  width: 3rem;
+}
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  padding: 4px;
+}
+.navbar__menu__item {
+  display: none;
+}
